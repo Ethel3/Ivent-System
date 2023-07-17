@@ -1,0 +1,103 @@
+.main-menu-container{
+    -fx-background-color:#EEEEEE;
+    -fx-alignment:center;
+}
+
+.active{
+    -fx-background-color:#241560;
+    -fx-text-fill:red;
+}
+
+.left-container{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:10;
+    -fx-effect:dropshadow(two-pass-box, #AAAAAA, 5,0,0,4);
+}
+
+/* TITLE / LOGO SECTION */
+.title-container{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 20 20 0 0;
+    -fx-alignment:top_center;
+    -fx-padding:10;
+}
+
+.title-container FontAwesomeIconView{
+    -fx-fill:#132a13;
+}
+
+.title-container Text{
+    -fx-fill:#000000;
+    -fx-font-size:2em;
+}
+
+/* NAVIGATION SECTION */
+.menu-container{
+    -fx-padding:10 10 10 20;
+    -fx-spacing:20;
+}
+
+.menu-container Button{
+    -fx-pref-width: 150;
+    -fx-pref-height:40;
+    -fx-background-color:#ffffff;
+    -fx-text-fill:#132a13;
+    -fx-font-size:.8em;
+    -fx-alignment:center_left;
+}
+
+.menu-container Button:hover{
+    -fx-cursor:hand;
+    -fx-effect:dropshadow(three-pass-box, #DDDDDD, 5,0,0,6);
+}
+
+.menu-container Button FontAwesomeIconView{
+    -fx-fill:#132a13;
+}
+
+.alt-menu-btn{
+    -fx-pref-width:200;
+    -fx-pref-height:40;
+    -fx-background-color:#101a36;
+    -fx-text-fill:#FFFFFF;
+    -fx-font-size:1.1em;
+    -fx-alignment:center;
+ /*   -fx-effect:dropshadow(three-pass-box, #FFFFFF, 0,0,0,0); */
+}
+
+.alt-menu-btn FontAwesomeIconView{
+    -fx-fill:#FFFFFF;
+}
+
+/* REPORT SECTION */
+.report-container{
+    -fx-background-color:#EEEEEE;
+    -fx-background-radius:10;
+    -fx-alignment:center;
+    -fx-spacing:10;
+    -fx-padding:10 0 10 0;
+}
+
+.report-container Text{
+    -fx-font-weight:bold;
+    -fx-fill:#132a13;
+}
+
+.report-container Label{
+    -fx-text-alignment:center;
+    -fx-wrap-text:true;
+}
+
+.report-container Button{
+    -fx-width:80;
+    -fx-background-color:#101a36;
+    -fx-text-fill:#FFFFFF;
+}
+
+.report-container Button:hover, .alt-menu-btn{
+    -fx-cursor:hand;
+}
+
+.report-container Button FontAwesomeIconView{
+    -fx-fill:#FFFFFF;
+}

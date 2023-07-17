@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/ViewGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.ViewGoodsController">
+    <VBox prefHeight="750.0" prefWidth="850.0">
+        <AnchorPane prefHeight="750.0" prefWidth="850.0">
+            <Label layoutX="46.0" layoutY="46.0" styleClass="view-title" text="VIEW GOODS" />
+            <Line endX="661.0" layoutX="147.0" layoutY="79.0" startX="-100.0" />
+            <TableView fx:id="view_goods_table" layoutX="46.0" layoutY="152.0" prefHeight="535.0" prefWidth="762.0">
+                <columns>
+                    <TableColumn fx:id="good_name" editable="false" prefWidth="167.0" resizable="false" sortable="false" text="Goods Name" />
+                    <TableColumn fx:id="good_qty" editable="false" prefWidth="98.0" resizable="false" sortable="false" text="Quantity" />
+                    <TableColumn fx:id="good_buying_price" editable="false" prefWidth="121.0" resizable="false" sortable="false" text="Buying Price" />
+                    <TableColumn fx:id="good_selling_price" editable="false" prefWidth="131.0" resizable="false" sortable="false" text="Selling Price" />
+                    <TableColumn fx:id="good_gross_price" editable="false" prefWidth="102.0" resizable="false" sortable="false" text="Gross Price" />
+                    <TableColumn fx:id="good_date" editable="false" prefWidth="142.0" resizable="false" sortable="false" text="Date" />
+                </columns>
+            </TableView>
+         <ChoiceBox fx:id="category" layoutX="46.0" layoutY="106.0" prefWidth="150.0" />
+         <Label layoutX="46.0" layoutY="88.0" text="Choose Category" />
+         <Button fx:id="remove_btn" layoutX="715.0" layoutY="91.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="91.0" style="-fx-border-color: red; -fx-background-color: transparent; -fx-border-radius: 10;" styleClass="remove_btn" text="Remove" textFill="#e10707" />
+         <Button fx:id="add_good_btn" layoutX="613.0" layoutY="91.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="91.0" text="Add">
+            <graphic>
+               <FontAwesomeIconView fill="WHITE" glyphName="PLUS" />
+            </graphic>
+         </Button>
+         <Button fx:id="issue_btn" layoutX="505.0" layoutY="91.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="91.0" text="Issue" />
+         <Label fx:id="logic" alignment="CENTER" layoutX="365.0" layoutY="31.0" prefHeight="31.0" prefWidth="125.0" />
+        </AnchorPane>
+    </VBox>
+</AnchorPane>

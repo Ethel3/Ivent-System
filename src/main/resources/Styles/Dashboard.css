@@ -1,0 +1,54 @@
+.main-container{
+    -fx-background-color:#f1f1f1;
+}
+
+.welcome{
+    -fx-font-size:1.2em;
+    -fx-font-weight:bold;
+    -fx-font-family:"Sawasdee"
+}
+
+.card-container{
+    -fx-background-radius:10;
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:10;
+    -fx-effect:dropshadow(two-pass-box, #AAAAAA, 5,0,0,4);
+}
+
+.card-container1{
+    -fx-background-color: #241560;
+}
+
+.card-container2{
+    -fx-background-color: #2d1490;
+}
+
+.card-container3{
+    -fx-background-color: #320ad2;
+}
+.card-title{
+    -fx-font-size:1.2em;
+    -fx-text-fill:#FFFFFF;
+    -fx-alignment:center_left;
+}
+
+.card-number{
+    -fx-font-size:3em;
+    -fx-text-fill:#FFFFFF;
+    -fx-alignment:center_left;
+
+}
+
+.high-stock{
+    -fx-background-color:#45d811;
+}
+
+.low-stock{
+    -fx-background-color:red;
+}
+
+.recent-bg{
+    -fx-background-color:#241560;
+    -fx-background-radius:10;
+
+}

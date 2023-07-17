@@ -1,0 +1,23 @@
+.main-container{
+    -fx-background-color:#f1f1f1;
+}
+
+.text-color{
+    -fx-text-fill:#241560;
+}
+
+.view-title{
+    -fx-font-size:2em;
+     -fx-text-fill:#241560;
+     -fx-font-weight:bold;
+}
+
+.main-container Button{
+    -fx-background-color:#241560;
+    -fx-text-fill:#FFFFFF;
+    -fx-font-weight:bold;
+}
+
+.main-container Button:hover{
+    -fx-cursor:hand;
+}

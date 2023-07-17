@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/AddGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.AddGoods">
+    <Label layoutX="60.0" layoutY="31.0" styleClass="view-title" text="ADD GOOD" />
+   <Label layoutX="591.0" layoutY="67.0" text="Date" />
+   <HBox layoutX="31.0" layoutY="116.0" prefHeight="77.0" prefWidth="791.0" spacing="40.0" AnchorPane.leftAnchor="31.0">
+      <VBox alignment="CENTER_LEFT" spacing="10.0">
+         <children>
+            <Label styleClass="text-color" text="Good Category" />
+            <ChoiceBox fx:id="category" prefHeight="26.0" prefWidth="195.0" />
+         </children>
+      </VBox>
+      <VBox fx:id="indexVBox" alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" spacing="10.0">
+         <children>
+            <Label styleClass="text-color" text="Index" />
+            <TextField fx:id="index" prefHeight="26.0" prefWidth="56.0" />
+         </children>
+      </VBox>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="203.0" prefHeight="77.0" prefWidth="791.0">
+      <AnchorPane prefHeight="87.0" prefWidth="791.0">
+         <Label layoutX="283.0" layoutY="14.0" styleClass="text-color" text="Quantity" />
+         <TextField fx:id="item_1_qty" layoutX="280.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="407.0" layoutY="13.0" styleClass="text-color" text="Buying Price" />
+         <TextField fx:id="item_1_buying_price" layoutX="404.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="537.0" layoutY="14.0" styleClass="text-color" text="Selling Price" />
+         <TextField fx:id="item_1_selling_price" layoutX="534.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="686.0" layoutY="13.0" styleClass="text-color" text="Gross Price" />
+         <TextField fx:id="item_1_gross_price" editable="false" layoutX="683.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="16.0" layoutY="14.0" styleClass="text-color" text="Good Name" />
+         <TextField fx:id="item_1" layoutX="13.0" layoutY="38.0" prefHeight="26.0" prefWidth="232.0" />
+      </AnchorPane>
+   </HBox>
+   <Button fx:id="save_btn" layoutX="707.0" layoutY="680.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="114.0" text="Save" />
+   <Label layoutX="715.0" layoutY="597.0" styleClass="text-color" text="Total Cost" />
+   <TextField fx:id="total_cost" layoutX="712.0" layoutY="623.0" prefHeight="26.0" prefWidth="107.0" />
+   <HBox layoutX="31.0" layoutY="298.0" prefHeight="77.0" prefWidth="791.0" AnchorPane.leftAnchor="31.0">
+      <AnchorPane prefHeight="87.0" prefWidth="791.0">
+         <Label layoutX="283.0" layoutY="14.0" styleClass="text-color" text="Quantity" />
+         <TextField fx:id="item_2_qty" layoutX="280.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="407.0" layoutY="13.0" styleClass="text-color" text="Buying Price" />
+         <TextField fx:id="item_2_buying_price" layoutX="404.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="537.0" layoutY="14.0" styleClass="text-color" text="Selling Price" />
+         <TextField fx:id="item_2_selling_price" layoutX="534.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="686.0" layoutY="13.0" styleClass="text-color" text="Gross Price" />
+         <TextField fx:id="item_2_gross_price" editable="false" layoutX="683.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="16.0" layoutY="14.0" styleClass="text-color" text="Good Name" />
+         <TextField fx:id="item_2" layoutX="13.0" layoutY="38.0" prefHeight="26.0" prefWidth="232.0" />
+      </AnchorPane>
+   </HBox>
+   <HBox layoutX="30.0" layoutY="400.0" prefHeight="77.0" prefWidth="791.0" AnchorPane.leftAnchor="30.0">
+      <AnchorPane prefHeight="87.0" prefWidth="791.0">
+         <Label layoutX="283.0" layoutY="14.0" styleClass="text-color" text="Quantity" />
+         <TextField fx:id="item_3_qty" layoutX="280.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="407.0" layoutY="13.0" styleClass="text-color" text="Buying Price" />
+         <TextField fx:id="item_3_buying_price" layoutX="404.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="537.0" layoutY="14.0" styleClass="text-color" text="Selling Price" />
+         <TextField fx:id="item_3_selling_price" layoutX="534.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="686.0" layoutY="13.0" styleClass="text-color" text="Gross Price" />
+         <TextField fx:id="item_3_gross_price" editable="false" layoutX="683.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="16.0" layoutY="14.0" styleClass="text-color" text="Good Name" />
+         <TextField fx:id="item_3" layoutX="13.0" layoutY="38.0" prefHeight="26.0" prefWidth="232.0" />
+      </AnchorPane>
+   </HBox>
+   <HBox layoutX="45.0" layoutY="505.0" prefHeight="77.0" prefWidth="791.0" AnchorPane.leftAnchor="30.0">
+      <AnchorPane prefHeight="87.0" prefWidth="791.0">
+         <Label layoutX="283.0" layoutY="14.0" styleClass="text-color" text="Quantity" />
+         <TextField fx:id="item_4_qty" layoutX="280.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="407.0" layoutY="13.0" styleClass="text-color" text="Buying Price" />
+         <TextField fx:id="item_4_buying_price" layoutX="404.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="537.0" layoutY="14.0" styleClass="text-color" text="Selling Price" />
+         <TextField fx:id="item_4_selling_price" layoutX="534.0" layoutY="38.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="686.0" layoutY="13.0" styleClass="text-color" text="Gross Price" />
+         <TextField fx:id="item_4_gross_price" editable="false" layoutX="683.0" layoutY="37.0" prefHeight="26.0" prefWidth="94.0" />
+         <Label layoutX="16.0" layoutY="14.0" styleClass="text-color" text="Good Name" />
+         <TextField fx:id="item_4" layoutX="13.0" layoutY="38.0" prefHeight="26.0" prefWidth="232.0" />
+      </AnchorPane>
+   </HBox>
+   <DatePicker fx:id="date" layoutX="632.0" layoutY="63.0" prefHeight="26.0" prefWidth="132.0" />
+   <Label fx:id="error_lbl" alignment="CENTER" layoutX="40.0" layoutY="92.0" prefHeight="33.0" prefWidth="777.0" text="" textAlignment="CENTER" textFill="RED" />
+</AnchorPane>

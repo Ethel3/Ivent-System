@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" stylesheets="@../Styles/LeftMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.LeftMenuController">
+   <AnchorPane prefHeight="750.0" prefWidth="181.0" styleClass="left-container">
+      <VBox layoutY="2.0" prefHeight="108.0" prefWidth="180.0" styleClass="title-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="2.0">
+         <FontAwesomeIconView glyphName="HOME" size="30" />
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NetMart">
+            <font>
+               <Font name="Sawasdee" size="13.0" />
+            </font>
+         </Text>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="160.0" styleClass="menu-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0">
+         <Button fx:id="dashboard_btn" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="DASHBOARD">
+            <graphic>
+               <FontAwesomeIconView glyphName="HOME" size="20" />
+            </graphic>
+         </Button>
+         <Button fx:id="view_vendor_btn" mnemonicParsing="false" prefWidth="180.0" text="VIEW VENDORS">
+            <graphic>
+               <FontAwesomeIconView glyphName="LIST" size="20" />
+            </graphic></Button>
+         <Button fx:id="view_goods_btn" layoutX="10.0" layoutY="34.0" mnemonicParsing="false" prefWidth="180.0" text="VIEW GOODS">
+            <graphic>
+               <FontAwesomeIconView glyphName="GRAPH" size="20" text="" />
+            </graphic>
+         </Button>
+         <Button fx:id="issued_goods_btn" layoutX="10.0" layoutY="82.0" mnemonicParsing="false" prefWidth="180.0" text="ISSUED GOODS" textOverrun="CLIP">
+            <graphic>
+               <FontAwesomeIconView glyphName="LIST" size="20" text="" />
+            </graphic>
+         </Button>
+         <Button fx:id="view_bills_btn" layoutX="10.0" layoutY="58.0" mnemonicParsing="false" prefWidth="180.0" text="VIEW BILLS">
+            <graphic>
+               <FontAwesomeIconView glyphName="LIST" size="20" />
+            </graphic>
+         </Button>
+         <Line endX="150.0" />
+         <Button fx:id="logout_btn" mnemonicParsing="false" prefWidth="180.0" styleClass="alt-menu-btn" text="LOG OUT">
+            <graphic>
+               <FontAwesomeIconView glyphName="EXTERNAL_LINK" size="12" />
+            </graphic>
+         </Button>
+      </VBox>
+      <VBox layoutX="14.0" layoutY="621.0" prefHeight="120.0" prefWidth="130.0" styleClass="report-container" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Report Bug ?" />
+         <Label text="Use this to report any errors or suggestions" />
+         <Button fx:id="report_btn" mnemonicParsing="false" text="Report">
+            <graphic>
+               <FontAwesomeIconView glyphName="PLUS" />
+            </graphic>
+         </Button>
+      </VBox>
+   </AnchorPane>
+</VBox>

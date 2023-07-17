@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.issuedGoodModal">
+   <children>
+      <Label layoutX="144.0" layoutY="59.0" text="Choose Vendor" />
+      <ChoiceBox fx:id="vendor_option" layoutX="100.0" layoutY="88.0" prefHeight="24.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>
