@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 import com.example.netmart.Models.Model;
 import javafx.fxml.Initializable;

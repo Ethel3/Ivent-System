@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 public class Goods {
     private int good_id;

@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;

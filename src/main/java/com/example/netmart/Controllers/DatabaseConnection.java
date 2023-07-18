@@ -1,11 +1,11 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 import java.sql.*;
 
 public class DatabaseConnection {
 
     public static Connection getConnection() throws SQLException {
-        String url = "jdbc:mysql://localhost:3306/netmart";
+        String url = "jdbc:mysql://localhost:3306/ivent";
         String user = "root";
         String password = "";
         Connection connection = DriverManager.getConnection(url, user, password);
