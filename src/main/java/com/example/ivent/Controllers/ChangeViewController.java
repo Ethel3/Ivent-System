@@ -1,6 +1,6 @@
 package com.example.ivent.Controllers;
 
-import com.example.netmart.Models.Model;
+import com.example.ivent.Models.Model;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.BorderPane;
 

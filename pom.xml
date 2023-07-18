@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>NetMart</artifactId>
+    <artifactId>Ivent</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>NetMartT</name>
+    <name>Ivent</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -31,6 +31,7 @@
             <artifactId>javafx-fxml</artifactId>
             <version>20</version>
         </dependency>
+
 
         <dependency>
             <groupId>de.jensd</groupId>
@@ -85,7 +86,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                com.example.netmart/com.example.netmart.App
+                                com.example.ivent/com.example.ivent.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

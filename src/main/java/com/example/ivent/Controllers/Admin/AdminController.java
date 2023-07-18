@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers.Admin;
+package com.example.ivent.Controllers.Admin;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
