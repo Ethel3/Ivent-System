@@ -9,11 +9,11 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" stylesheets="@../Styles/LeftMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.LeftMenuController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="180.0" stylesheets="@../Styles/LeftMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ivent.Controllers.LeftMenuController">
    <AnchorPane prefHeight="750.0" prefWidth="181.0" styleClass="left-container">
       <VBox layoutY="2.0" prefHeight="108.0" prefWidth="180.0" styleClass="title-container" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="2.0">
          <FontAwesomeIconView glyphName="HOME" size="30" />
-         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="NetMart">
+         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ivent">
             <font>
                <Font name="Sawasdee" size="13.0" />
             </font>

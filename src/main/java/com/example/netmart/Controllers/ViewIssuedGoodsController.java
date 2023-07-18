@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;

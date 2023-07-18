@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/AddGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.AddGoods">
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/AddGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ivent.Controllers.AddGoods">
     <Label layoutX="60.0" layoutY="31.0" styleClass="view-title" text="ADD GOOD" />
    <Label layoutX="591.0" layoutY="67.0" text="Date" />
    <HBox layoutX="31.0" layoutY="116.0" prefHeight="77.0" prefWidth="791.0" spacing="40.0" AnchorPane.leftAnchor="31.0">

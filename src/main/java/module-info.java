@@ -1,4 +1,4 @@
- module com.example.netmart {
+ module com.example.ivent {
     requires javafx.controls;
     requires javafx.fxml;
     requires javafx.graphicsEmpty;
@@ -10,12 +10,12 @@
     requires com.google.gson;
 
 
-    opens com.example.netmart to javafx.fxml;
-    exports com.example.netmart;
-    exports com.example.netmart.Controllers;
-    exports com.example.netmart.Controllers.Admin;
-    exports com.example.netmart.Controllers.Client;
-    exports com.example.netmart.Models;
-    exports com.example.netmart.Views;
-    opens com.example.netmart.Controllers to javafx.fxml;
+    opens com.example.ivent to javafx.fxml;
+    exports com.example.ivent;
+    exports com.example.ivent.Controllers;
+    exports com.example.ivent.Controllers.Admin;
+    exports com.example.ivent.Controllers.Client;
+    exports com.example.ivent.Models;
+    exports com.example.ivent.Views;
+    opens com.example.ivent.Controllers to javafx.fxml;
 }

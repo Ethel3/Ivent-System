@@ -1,8 +1,8 @@
-package com.example.netmart.Models;
+package com.example.ivent.Models;
 
-import com.example.netmart.Controllers.Admin.AdminController;
-import com.example.netmart.Controllers.DatabaseConnection;
-import com.example.netmart.Views.ViewFactory;
+import com.example.ivent.Controllers.Admin.AdminController;
+import com.example.ivent.Controllers.DatabaseConnection;
+import com.example.ivent.Views.ViewFactory;
 
 import java.sql.ResultSet;
 

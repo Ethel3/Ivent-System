@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/ViewGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.ViewGoodsController">
+<AnchorPane prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/ViewGoods.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ivent.Controllers.ViewGoodsController">
     <VBox prefHeight="750.0" prefWidth="850.0">
         <AnchorPane prefHeight="750.0" prefWidth="850.0">
             <Label layoutX="46.0" layoutY="46.0" styleClass="view-title" text="VIEW GOODS" />

@@ -1,4 +1,4 @@
-package com.example.netmart.Controllers;
+package com.example.ivent.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

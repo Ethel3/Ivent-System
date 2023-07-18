@@ -1,6 +1,6 @@
-package com.example.netmart.Views;
+package com.example.ivent.Views;
 
-import com.example.netmart.Controllers.ChangeViewController;
+import com.example.ivent.Controllers.ChangeViewController;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 import javafx.fxml.FXMLLoader;

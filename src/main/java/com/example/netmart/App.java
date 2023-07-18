@@ -1,6 +1,6 @@
-package com.example.netmart;
+package com.example.ivent;
 
-import com.example.netmart.Models.Model;
+import com.example.ivent.Models.Model;
 import javafx.application.Application;
 import javafx.stage.Stage;
 

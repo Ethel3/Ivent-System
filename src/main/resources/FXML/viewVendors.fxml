@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/ViewVendors.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.ViewVendorsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="850.0" styleClass="main-container" stylesheets="@../Styles/ViewVendors.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ivent.Controllers.ViewVendorsController">
    <Label layoutX="50.0" layoutY="38.0" styleClass="view-title" text="VIEW VENDORS" />
    <Line endX="642.0" layoutX="151.0" layoutY="68.0" startX="-100.0" />
    <Button fx:id="vendor_remove_btn" layoutX="642.0" layoutY="80.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="152.0" text="Remove Vendor">

@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 
-<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.netmart.Controllers.ViewIssuedGoodsController">
+<AnchorPane prefHeight="750.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ivent.Controllers.ViewIssuedGoodsController">
    <VBox prefHeight="750.0" prefWidth="850.0">
       <AnchorPane prefHeight="750.0" prefWidth="850.0">
          <Label layoutX="35.0" layoutY="43.0" text="ISSUED GOODS" />
