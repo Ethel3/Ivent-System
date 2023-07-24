@@ -1,3 +1,5 @@
+// ETHEL AKOSUA AKRASI - 10917233
+
 package com.example.ivent;
 
 import com.example.ivent.Models.Model;
